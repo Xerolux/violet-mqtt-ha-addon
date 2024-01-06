@@ -9,3 +9,18 @@ arch:
   - armhf
   - armv7
   - i386
+startup: services
+options:
+  mqtt_broker_address: "192.168.178.74"
+  mqtt_broker_port: 1883
+  mqtt_topic: "violet"
+  mqtt_username: "test"
+  mqtt_password: 1234
+  api_url: "192.168.178.74"
+schema:
+  #mqtt_broker_address: str
+  #mqtt_broker_port: int
+  #mqtt_topic: int
+  #mqtt_username: string
+#  mqtt_password: int
+#  api_url: str

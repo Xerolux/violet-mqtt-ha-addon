@@ -1,0 +1,8 @@
+{
+  "mqtt_broker_address": "__MQTT_HOST__",
+  "mqtt_port": __MQTT_PORT__,
+  "base_mqtt_topic": "__MQTT_TOPIC__",
+  "mqtt_username": "__MQTT_USERNAME__",
+  "mqtt_password": "__MQTT_PASSWORD__",
+  "api_url": "__API_URL__"
+}

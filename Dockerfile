@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 
-COPY . /addon
+COPY addon /addon
 
 WORKDIR /addon
 

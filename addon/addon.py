@@ -26,7 +26,7 @@ def publish_to_mqtt(broker_address, port, base_topic, payload, username, passwor
                        hostname=broker_address, port=port, auth={'username': username, 'password': password})
 
 def main():
-    config_path = "/config/config.json"
+    config_path = "options.json"
     config = json.load(open(config_path))
 
     while True:

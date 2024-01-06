@@ -1,0 +1,8 @@
+{
+  "mqtt_broker_address": "mqtt.server.local",
+  "mqtt_port": 8883,
+  "base_mqtt_topic": "your/mqtt/base/topic",
+  "mqtt_username": "",
+  "mqtt_password": "",
+  "api_url": "https://your.api.endpoint/data"
+}
