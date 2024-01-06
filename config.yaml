@@ -1,0 +1,11 @@
+name: "violet-mqtt-ha-addon"
+description: "violet-mqtt-ha-addon"
+version: "0.0.1"
+slug: folder
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
